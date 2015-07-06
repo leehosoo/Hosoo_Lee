@@ -1,0 +1,10 @@
+d=100
+
+dice1 <- sample(6,d,replace=TRUE)
+dice2 <- sample(6,d,replace=TRUE)
+
+dice_roll <- dice1 + dice2
+
+hist(dice_roll)
+
+hist(dice_roll,freq=FALSE)
